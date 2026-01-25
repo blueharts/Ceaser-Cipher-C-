@@ -1,2 +1,36 @@
-# Ceaser-Cipher-C-
-A Ceaser Cipher Encrypter, and Decrypter in C++
+# CAESER CIPHER ENCRYPTER / DECRYPTER
+
+A CAESER CIPHER ENCRYPTION AND DECRYPTION TOOL WRITTEN IN C++.
+
+## FEATURES
+- ENCRYPT MESSAGES USING CIPHER
+- DECRYPT MESSAGES USING CIPHER
+- ENCRYPT AND DECRYPT IN ONE COMMAND
+- SIMPLE CONSOLE INTERFACE
+
+## REQUIREMENTS (TO LAZY TO MAKE IT INTO A EXE)
+- CODE EDITOR (E.G., VS CODE)
+- MINGW64 COMPILER
+- GCC OR G++
+
+## HOW TO COMPILE
+```bash
+g++ main.cpp -o encrypter.exe
+```
+
+##  HOW TO USE
+RUN THE PROGRAM AND DO THESE COMMANDS:
+- `enc`   - ENCRYPT MESSAGE
+- `dec`   - Decrypt a message
+- `ed`    - Encrypt then decrypt
+- `help`  - Show all commands
+- `clear` - Clear the screen
+- `exit`  - Exit the program
+
+## EXAMPLE
+```
+ENCRYPTER > enc
+
+ENTER YOUR MESSAGE > hello
+ENCRYPTED: khoor
+```
