@@ -1,35 +1,47 @@
-# CAESER CIPHER ENCRYPTER / DECRYPTER
+# Caeser Cipher Encrypter and Decrypter
 
-A CAESER CIPHER ENCRYPTION AND DECRYPTION TOOL WRITTEN IN C++.
-WARNING, THIS IS ONLY USUABLE ON WINDOWS SINCE IM TO LAZY TO
-ADD A GLOBAL CLEAR FEATURE.
+A Caeser Cipher Encryption and Decryption tool written in C++.
 
-## FEATURES
-- ENCRYPT MESSAGES USING CIPHER
-- DECRYPT MESSAGES USING CIPHER
-- ENCRYPT AND DECRYPT IN ONE COMMAND
-- SIMPLE CONSOLE INTERFACE
+Warning, this is a old project, where I haven't added cross platform
+terminal clearing, this is a project made when I was still a beginner,
+ensure when using this tool you are on Windows, I apologize
+for anyone on other Systems. I am planning to modify the source code soon.
 
-## REQUIREMENTS (TO LAZY TO MAKE IT INTO A EXE)
-- CODE EDITOR (E.G., VS CODE)
-- MINGW64 COMPILER
-- GCC OR G++
+### Features
+- Encrypt Messages
+- Decrypt Messages
+- Usable in a bare bones terminal
 
-## HOW TO COMPILE
+### Requirements
+- Code Editor (e.g., Visual Studio Code, Code::Blocks, etc)
+- Mingw64 Compiler
+- GCC or G++
+
+### How to Compile
+Please type this following command in your terminal, if you aren't in the specific directory of the
+source file, please change your directory.
+
+G++ Compiler
 ```bash
-g++ main.cpp -o encrypter.exe
+g++ main.cpp -o caeser.exe
 ```
 
-##  HOW TO USE
-RUN THE PROGRAM AND DO THESE COMMANDS:
-- `enc`   - ENCRYPT MESSAGE
-- `dec`   - Decrypt a message
-- `ed`    - Encrypt then decrypt
-- `help`  - Show all commands
-- `clear` - Clear the screen
-- `exit`  - Exit the program
+GCC Compiler
+```bash
+gcc main.cipp -o caeser.exe
+```
 
-## EXAMPLE
+### How to Use
+Launch the excecutable and do these follwing commands:
+
+- `enc`   - Encrypt a Message
+- `dec`   - Decrypt a Message
+- `ed`    - Encrypt a Message then Decrypt the message
+- `help`  - Show all commands
+- `clear` - Clear screen
+- `exit`  - Exit Program
+
+### Example
 ```
 ENCRYPTER > enc
 
