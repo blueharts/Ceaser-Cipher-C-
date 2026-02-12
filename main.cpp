@@ -3,7 +3,12 @@
 
 void ClearScr()
 {
-    system("cls");
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
+
     std::cout << "C++ ENCRYPTER. FREE FOR COMMERCIAL AND PERSONAL USE.\n"
               << "VERSION: V1.05\n\n";
 }
@@ -133,3 +138,4 @@ int main()
     Encrypter();
     return 0;
 }
+
