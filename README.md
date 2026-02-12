@@ -2,10 +2,8 @@
 
 A Caeser Cipher Encryption and Decryption tool written in C++.
 
-Warning, this is a old project, where I haven't added cross platform
-terminal clearing, this is a project made when I was still a beginner,
-ensure when using this tool you are on Windows, I apologize
-for anyone on other Systems. I am planning to modify the source code soon.
+I have finally added cross platform Clear screen functions,
+so now, any operating system can access and use this program.
 
 ### Features
 - Encrypt Messages
